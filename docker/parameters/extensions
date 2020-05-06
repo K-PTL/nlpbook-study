@@ -1,0 +1,6 @@
+@jupyterlab/toc
+@jupyterlab/git
+jupyterlab_vim
+jupyterlab_tensorboard
+@lckr/jupyterlab_variableinspector
+@ryantam626/jupyterlab_code_formatter

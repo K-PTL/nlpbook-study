@@ -1,0 +1,10 @@
+version: "3"
+services:
+  nlpbook:
+    environment:
+      - HOME=/nlpbook
+    working_dir: /nlpbook
+    volumes:
+      - ~/.gitconfig:/nlpbook/.gitconfig
+      - ~/.ssh:/nlpbook/.ssh
+    command: jupyter lab --NotebookApp.token='' --notebook-dir=/nlpbook/ --ip=0.0.0.0 --port=8888 --no-browser --allow-root

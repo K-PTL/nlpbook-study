@@ -1,0 +1,15 @@
+version: '3'
+services:
+  nlpbook:
+    container_name: nlpbook
+    build:
+      context: ../
+      dockerfile: ./docker/Dockerfile
+    image: ubuntu:18.04
+    volumes:
+      - '../:/nlpbook'
+    ports:
+      - "8888:8888"
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    tty: true

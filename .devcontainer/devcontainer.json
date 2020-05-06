@@ -1,0 +1,17 @@
+// See https://aka.ms/vscode-remote/devcontainer.json for format details.
+{
+    "name": "Remote-dev Project",
+    "dockerComposeFile": [
+      "../docker/docker-compose.yml",
+      "docker-compose.extend.yml"
+    ],
+    "service": "nlpbook",
+    "workspaceFolder": "/nlpbook/",
+    "settings": {
+      "editor.tabSize": 4,
+      "files.insertFinalNewline": true,
+      "files.trimFinalNewlines": true,
+      "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "shutdownAction": "none" // or "stopCompose"
+  }

@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+
+  File "/root/local/python-3.7.0/lib/python3.7/site-packages/jupyterlab/debuglog.py", line 47, in debug_logging
+    yield
+
+  File "/root/local/python-3.7.0/lib/python3.7/site-packages/jupyterlab/labextensions.py", line 93, in start
+    ans = self.run_task()
+
+  File "/root/local/python-3.7.0/lib/python3.7/site-packages/jupyterlab/labextensions.py", line 149, in run_task
+    for i, arg in enumerate(self.extra_args)
+
+  File "/root/local/python-3.7.0/lib/python3.7/site-packages/jupyterlab/labextensions.py", line 149, in <listcomp>
+    for i, arg in enumerate(self.extra_args)
+
+  File "/root/local/python-3.7.0/lib/python3.7/site-packages/jupyterlab/commands.py", line 386, in install_extension
+    _node_check(app_options.logger)
+
+  File "/root/local/python-3.7.0/lib/python3.7/site-packages/jupyterlab/commands.py", line 1758, in _node_check
+    node = which('node')
+
+  File "/root/local/python-3.7.0/lib/python3.7/site-packages/jupyterlab_server/process.py", line 59, in which
+    raise ValueError(msg)
+
+ValueError: Please install Node.js and npm before continuing installation. You may be able to install Node.js from your package manager, from conda, or directly from the Node.js website (https://nodejs.org).
+
+Exiting application: jupyter
