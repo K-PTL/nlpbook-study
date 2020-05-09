@@ -1,0 +1,37 @@
+2020-05-09 11:51:36,156|DEBUG   |loadLogging|load_dataset|shape of 'data/amazon_reviews_multilingual_JP_v1_00.tsv'; (262256, 15)
+2020-05-09 11:51:36,158|DEBUG   |loadLogging|load_dataset|  marketplace  customer_id       review_id  ... review_headline                                        review_body review_date
+0          JP        65317  R33RSUD4ZTRKT7  ...          残念ながら…             残念ながら…趣味ではありませんでした。ケルト音楽の範疇にも幅があるのですね…  2012-12-05
+1          JP        65317  R2U1VB8GPZBBEH  ...          残念ながら…                   残念ながら…趣味ではありませんでした。正直退屈…眠気も起きない…  2012-12-05
+2          JP        65696  R1IBRCJPPGWVJW  ...        ドリームキャスト              素晴らしいパフォーマンス。ミュージカル映画版の物足りない歌唱とは違います。  2013-03-02
+3          JP        67162   RL02CW5XLYONU  ...         やっぱりマスト  専門的な事を言わずにお勧めレコメを書きたいのですが、文才が無いので無理でした。ヒップホップが...  2013-08-11
+4          JP        67701  R2LA2SS3HU3A3L  ...        コスパ的には十分  今までの環境（Core2 Duo E4600)に比べれば十分に快適になりました。<br />...  2013-02-10
+
+[5 rows x 15 columns]
+2020-05-09 11:51:44,491|DEBUG   |__name__|main|●○ Tokenization ○●
+2020-05-09 11:55:02,987|DEBUG   |__name__|main|●○ Binary ○●
+2020-05-09 11:55:04,347|DEBUG   |trnevLogging|train_and_eval|0.8385
+2020-05-09 11:55:04,348|DEBUG   |stopwatchLogging|wrapper|function; 'train_and_eval' took 1.3574023246765137 seconds.
+2020-05-09 11:55:04,349|DEBUG   |__name__|main|●○ Count ○●
+2020-05-09 11:55:05,976|DEBUG   |trnevLogging|train_and_eval|0.8390
+2020-05-09 11:55:05,976|DEBUG   |stopwatchLogging|wrapper|function; 'train_and_eval' took 1.6228885650634766 seconds.
+2020-05-09 11:55:05,977|DEBUG   |__name__|main|●○ TF-IDF; Uni-gram ○●
+2020-05-09 11:55:07,034|DEBUG   |trnevLogging|train_and_eval|0.8460
+2020-05-09 11:55:07,036|DEBUG   |stopwatchLogging|wrapper|function; 'train_and_eval' took 1.0525908470153809 seconds.
+2020-05-09 11:55:07,037|DEBUG   |__name__|main|●○ TF-IDF; Bi-gram ○●
+2020-05-09 11:55:09,974|DEBUG   |trnevLogging|train_and_eval|0.7920
+2020-05-09 11:55:09,975|DEBUG   |stopwatchLogging|wrapper|function; 'train_and_eval' took 2.9326670169830322 seconds.
+2020-05-09 11:55:09,976|DEBUG   |__name__|main|●○ TF-IDF; Uni- and Bi-grams ○●
+2020-05-09 11:55:13,727|DEBUG   |trnevLogging|train_and_eval|0.8360
+2020-05-09 11:55:13,728|DEBUG   |stopwatchLogging|wrapper|function; 'train_and_eval' took 3.708765983581543 seconds.
+2020-05-09 11:55:13,729|DEBUG   |__name__|main|●○ TF-IDF; Uni-, Bi-, and Tri-grams ○●
+2020-05-09 11:55:21,276|DEBUG   |trnevLogging|train_and_eval|0.8315
+2020-05-09 11:55:21,280|DEBUG   |stopwatchLogging|wrapper|function; 'train_and_eval' took 7.495839595794678 seconds.
+2020-05-09 11:55:21,281|DEBUG   |__name__|main|●○ Use MaCab; TF-IDF; Uni-gram ○●
+2020-05-09 11:55:38,959|DEBUG   |trnevLogging|train_and_eval|0.8485
+2020-05-09 11:55:38,962|DEBUG   |stopwatchLogging|wrapper|function; 'train_and_eval' took 1.0748355388641357 seconds.
+2020-05-09 11:55:38,963|DEBUG   |__name__|main|●○ Use MaCab; TF-IDF; Uni- and Bi-grams ○●
+2020-05-09 11:55:42,746|DEBUG   |trnevLogging|train_and_eval|0.8420
+2020-05-09 11:55:42,747|DEBUG   |stopwatchLogging|wrapper|function; 'train_and_eval' took 3.777006149291992 seconds.
+2020-05-09 11:55:42,747|DEBUG   |__name__|main|●○ Use MaCab; TF-IDF; Uni-, Bi-, and Tri-grams ○●
+2020-05-09 11:55:50,394|DEBUG   |trnevLogging|train_and_eval|0.8330
+2020-05-09 11:55:50,395|DEBUG   |stopwatchLogging|wrapper|function; 'train_and_eval' took 7.5948264598846436 seconds.

@@ -1,0 +1,27 @@
+2020-05-09 07:26:00,445|DEBUG   |loadLogging|load_dataset|shape of 'data/amazon_reviews_multilingual_JP_v1_00.tsv'; (262256, 15)
+2020-05-09 07:26:00,446|DEBUG   |loadLogging|load_dataset|  marketplace  customer_id       review_id  ... review_headline                                        review_body review_date
+0          JP        65317  R33RSUD4ZTRKT7  ...          残念ながら…             残念ながら…趣味ではありませんでした。ケルト音楽の範疇にも幅があるのですね…  2012-12-05
+1          JP        65317  R2U1VB8GPZBBEH  ...          残念ながら…                   残念ながら…趣味ではありませんでした。正直退屈…眠気も起きない…  2012-12-05
+2          JP        65696  R1IBRCJPPGWVJW  ...        ドリームキャスト              素晴らしいパフォーマンス。ミュージカル映画版の物足りない歌唱とは違います。  2013-03-02
+3          JP        67162   RL02CW5XLYONU  ...         やっぱりマスト  専門的な事を言わずにお勧めレコメを書きたいのですが、文才が無いので無理でした。ヒップホップが...  2013-08-11
+4          JP        67701  R2LA2SS3HU3A3L  ...        コスパ的には十分  今までの環境（Core2 Duo E4600)に比べれば十分に快適になりました。<br />...  2013-02-10
+
+[5 rows x 15 columns]
+2020-05-09 07:26:10,464|DEBUG   |__name__|main|●○ Tokenization only. ○●
+2020-05-09 07:28:21,096|DEBUG   |trnevLogging|train_and_eval|0.4010
+2020-05-09 07:28:21,104|DEBUG   |stopwatchLogging|wrapper|function; 'train_and_eval' took 130.6391704082489 seconds.
+2020-05-09 07:28:21,105|DEBUG   |__name__|main|●○ Clean html. ○●
+2020-05-09 07:30:29,661|DEBUG   |trnevLogging|train_and_eval|0.3880
+2020-05-09 07:30:29,668|DEBUG   |stopwatchLogging|wrapper|function; 'train_and_eval' took 128.56310510635376 seconds.
+2020-05-09 07:30:29,669|DEBUG   |__name__|main|●○ Normalize number. ○●
+2020-05-09 07:32:39,526|DEBUG   |trnevLogging|train_and_eval|0.4090
+2020-05-09 07:32:39,533|DEBUG   |stopwatchLogging|wrapper|function; 'train_and_eval' took 129.86243557929993 seconds.
+2020-05-09 07:32:39,533|DEBUG   |__name__|main|●○ Base form. ○●
+2020-05-09 07:34:54,215|DEBUG   |trnevLogging|train_and_eval|0.3770
+2020-05-09 07:34:54,224|DEBUG   |stopwatchLogging|wrapper|function; 'train_and_eval' took 134.68970704078674 seconds.
+2020-05-09 07:34:54,224|DEBUG   |__name__|main|●○ Lower text. ○●
+2020-05-09 07:37:13,228|DEBUG   |trnevLogging|train_and_eval|0.3830
+2020-05-09 07:37:13,236|DEBUG   |stopwatchLogging|wrapper|function; 'train_and_eval' took 139.01085662841797 seconds.
+2020-05-09 07:37:13,238|DEBUG   |__name__|main|●○ Use MaCab; tokenize only. ○●
+2020-05-09 07:37:20,544|DEBUG   |trnevLogging|train_and_eval|0.4030
+2020-05-09 07:37:20,550|DEBUG   |stopwatchLogging|wrapper|function; 'train_and_eval' took 7.3025383949279785 seconds.
