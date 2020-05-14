@@ -1,0 +1,12 @@
+2020-05-13 14:26:44,858|DEBUG   |loadLogging|load_dataset|shape of 'data/amazon_reviews_multilingual_JP_v1_00.tsv'; (262256, 15)
+2020-05-13 14:26:44,860|DEBUG   |loadLogging|load_dataset|  marketplace  customer_id       review_id  ... review_headline                                        review_body review_date
+0          JP        65317  R33RSUD4ZTRKT7  ...          残念ながら…             残念ながら…趣味ではありませんでした。ケルト音楽の範疇にも幅があるのですね…  2012-12-05
+1          JP        65317  R2U1VB8GPZBBEH  ...          残念ながら…                   残念ながら…趣味ではありませんでした。正直退屈…眠気も起きない…  2012-12-05
+2          JP        65696  R1IBRCJPPGWVJW  ...        ドリームキャスト              素晴らしいパフォーマンス。ミュージカル映画版の物足りない歌唱とは違います。  2013-03-02
+3          JP        67162   RL02CW5XLYONU  ...         やっぱりマスト  専門的な事を言わずにお勧めレコメを書きたいのですが、文才が無いので無理でした。ヒップホップが...  2013-08-11
+4          JP        67701  R2LA2SS3HU3A3L  ...        コスパ的には十分  今までの環境（Core2 Duo E4600)に比べれば十分に快適になりました。<br />...  2013-02-10
+
+[5 rows x 15 columns]
+2020-05-13 14:30:22,128|DEBUG   |__name__|main|best params are: {'C': 3, 'penalty': 'l2'}
+2020-05-13 14:30:22,130|DEBUG   |__name__|main|Accuracy(best): 0.8355
+2020-05-13 14:30:22,133|DEBUG   |__name__|main|Accuracy(test): 0.8535
