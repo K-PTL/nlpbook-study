@@ -52,5 +52,5 @@ tqdm==4.45.0
 urllib3==1.25.9
 Werkzeug==1.0.1
 wrapt==1.12.1
-jupyterlab==2.1.2
+jupyterlab==2.2.10
 pandas==1.0.3
